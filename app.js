@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
     console.log("connected")
 })
 
-// sign_up
+// Zometo
 router.use("/data",router)
 require("./zometo")(router,fetch);
 
